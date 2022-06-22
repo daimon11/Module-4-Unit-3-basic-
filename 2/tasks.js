@@ -1,6 +1,6 @@
 // task 02
 const rain = Math.random();
-let x = Math.round(rain);
+const x = Math.round(rain);
 if (x === 1) {
   console.log('Пошёл дождь. Возьмите зонт!');
 } else {
@@ -11,7 +11,7 @@ if (x === 1) {
 const mathematics = +prompt('Введите кол-во баллов по математике', '');
 const rus = +prompt('Введите кол-во баллов по русскому языку', '');
 const informatics = +prompt('Введите кол-во баллов по информатике', '');
-let sum = mathematics+rus+informatics;
+const sum = mathematics + rus + informatics;
 if (sum >= 265) {
   alert('Поздравляю, вы поступили на бюджет!')
 } else {
